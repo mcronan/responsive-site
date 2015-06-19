@@ -27,6 +27,32 @@
 .nav-top-padding {
 	padding-top: 10px;
 }
+
+.nav-style li a {
+	padding: 10px;
+	background-color: #CC0000;
+	color: #fff;
+}
+
+.coffee-title {
+	letter-spacing: 3px;
+	font-size: 30px;
+	color: #DE7C81;
+}
+
+/*body*/
+body {
+	background-color: #f5f6f6;
+	font-family: "Gotham Narrow SSm", "Helvetica Neue";
+	color: #545454;
+}
+
+.text-header-style {
+	color: #DE7C81;
+	font-size: 25px;
+	font-weight: bold;
+}
+
 /*remove styling from links*/
  nav-style, a {
  	 text-decoration: none;
@@ -87,6 +113,7 @@
 	padding-top: 20px;
 }
 
+
 /****************************************************
                  Media Queries 
 *****************************************************/
@@ -127,9 +154,15 @@
 	}
 
 	.nav-style {
-		margin: 0 auto;
+		margin: 5px auto;
 
 	}
+
+	.nav-style li a {
+	padding: 4px;
+	background-color: #CC0000;
+	color: #fff;
+}
 }	
 
 @media screen and (max-width: 960px) {
@@ -141,7 +174,7 @@
 	
 	 .horizontal-nav {
 		text-align: center;
-		padding: 0 10px;
+		padding: 5px 10px;
 		
 	}
 }

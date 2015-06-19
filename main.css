@@ -1,0 +1,160 @@
+/*For centering nav and main content*/
+.centered {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.align-center {
+	text-align: center;
+}
+
+/* Make nav items horizontal*/
+.horizontal-nav {
+	display: inline;
+	padding: 20px 40px;
+	list-style: none;
+}
+
+.nav-style {
+	list-style: none;
+	text-align: center;
+ }
+
+.nav-padding {
+	padding-bottom: 20px;
+}
+
+.nav-top-padding {
+	padding-top: 10px;
+}
+/*remove styling from links*/
+ nav-style, a {
+ 	 text-decoration: none;
+ 	 color: #000;
+ }
+
+ a:visited {
+ 	text-decoration: none;
+ 	color: #000;
+ }
+
+/*main image*/
+.hero-image {
+	max-width: 100%;
+}
+
+/*styling for main content*/
+
+.reason {
+	float: left;
+	width: 30%;
+	padding-top: 50px;
+}
+
+.paragraph {
+	 width: 60%;
+	 margin-left: 100px;
+	 overflow: hidden;
+}
+
+.second-reason {
+	float: right;
+	width: 30%;
+	padding-top: 50px;
+}
+
+.second-paragraph {
+	 width: 60%;
+	 margin-right: 100px;
+	 overflow: hidden;
+}
+
+.paragraph-padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*styling for images*/
+.padding-img {
+	margin-left: 20px;
+}
+
+/*styling for images*/
+.footer {
+	margin-top: 70px;
+	margin-bottom: 40px;
+	border-top: 1px solid gray;
+	padding-top: 20px;
+}
+
+/****************************************************
+                 Media Queries 
+*****************************************************/
+
+@media (max-width: 570px) {
+
+	.padding-img {
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+
+	.horizontal-nav {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 5px 0px;
+	}
+
+	.reason, .second-reason {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+
+	.paragraph, .second-paragraph {
+		float: none;
+		display: block;
+		margin: auto;
+}
+	.reason {
+		padding-top: 10px;
+		}
+
+	.paragraph-padding {
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+
+	.nav-style {
+		margin: 0 auto;
+
+	}
+}	
+
+@media screen and (max-width: 960px) {
+		.centered {
+		margin: 0 auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	  }
+	
+	 .horizontal-nav {
+		text-align: center;
+		padding: 0 10px;
+		
+	}
+}
+
+@media screen and (max-width: 1120px) and (min-width: 850px) {
+		.padding-img {
+			margin-left: 110px;
+		}
+}
+
+
+
+
+
+
+
